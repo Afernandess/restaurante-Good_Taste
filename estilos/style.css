@@ -42,7 +42,7 @@ header h1{
 header p{
     color: rgb(91, 30, 11);
     font-family:'Kalam', cursiva;
-     
+    font-size: 0.8em;
 }
 
 span#imenu{
