@@ -22,4 +22,9 @@
         background-color: #28140B;
         color: #FEBF0F;
     }
+
+    header p{
+        font-size: 1.3em;
+    }
+    
 }

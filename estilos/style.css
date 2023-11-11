@@ -27,14 +27,16 @@ div#h1header{
     border-radius: 10px;
     max-width: 90%;
     min-width: 80%;
-    margin-bottom: 20px;
     margin: auto;
+    padding: 20px;
+    margin-bottom: 25px;
 }
 
 header h1{
     color: rgb(91, 30, 11);
     font-family:'Kalam', cursiva; ;
     padding: 5px;
+    font-size: 1.2em;
 }
 
 header p{
