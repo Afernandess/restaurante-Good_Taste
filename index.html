@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Good Taste</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" >
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <main>
         <header>
             <div id="h1header">
                 <h1>RESTAURANTE GOOD TASTE</h1>
                 <p>VENHA SABOREAR UM DE NOSSOS PRATOS</p>
             </div>
-            <menu>
+            <span id="imenu" class="material-symbols-outlined" onclick="clickmenu()">menu</span>
+            <menu id="itens">
                 <ul>
                     <li><a href="#">Restaurante</a></li>
                     <li><a href="#">Cardápio</a></li>
@@ -49,5 +52,27 @@
           </section>
 
     </main>
+
+    <script>
+        function mudouTamanho(){
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+    </script>
+
+    <script>
+        function clickmenu(){
+            if (itens.style.display =='block'){
+            itens.style.display = 'none'
+            }else{
+                itens.style.display = 'block'
+            }
+        }
+
+    </script>
+
 </body>
 </html>
