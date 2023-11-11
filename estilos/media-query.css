@@ -6,7 +6,9 @@
     }
     menu {
         display: block;
+        
     }
+
     menu > ul > li {
         display: inline-block;
     }
@@ -23,8 +25,16 @@
         color: #FEBF0F;
     }
 
+    header h1{
+        font-size: 1.9em;
+    }
+
     header p{
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
     
+    header > menu{
+        text-align: left;
+        font-size: 1.5em;
+    }
 }
