@@ -28,6 +28,19 @@ div#h1header{
     max-width: 90%;
     min-width: 80%;
     margin-bottom: 20px;
+    margin: auto;
+}
+
+header h1{
+    color: rgb(91, 30, 11);
+    font-family:'Kalam', cursiva; ;
+    padding: 5px;
+}
+
+header p{
+    color: rgb(91, 30, 11);
+    font-family:'Kalam', cursiva;
+     
 }
 
 span#imenu{
@@ -61,6 +74,7 @@ menu > ul > li > a {
     background-color: #482414;
     color: #FEBF0F;
     border-top: 2px solid black;
+    
 }
 
 menu > ul > li > a:hover{

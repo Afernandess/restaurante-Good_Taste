@@ -11,4 +11,15 @@
         display: inline-block;
     }
     
+    menu > ul > li > a{
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        color:rgb(91, 30, 11);
+        
+    }
+
+    menu > ul > li > a:hover{
+        background-color: #28140B;
+        color: #FEBF0F;
+    }
 }
