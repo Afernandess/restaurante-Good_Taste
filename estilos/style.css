@@ -52,6 +52,7 @@ span#imenu{
     text-align: center;
     padding: 10px;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 span#imenu:hover{
@@ -83,3 +84,9 @@ menu > ul > li > a:hover{
     background-color: #28140B;
 }
 /*n fazer mais nada na parte de cima desgraçado */
+
+section{
+    background-color: white;
+    width: 95%;
+    margin: auto;
+}
