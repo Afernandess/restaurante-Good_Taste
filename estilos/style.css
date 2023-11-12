@@ -9,20 +9,20 @@
     box-sizing: border-box;
 }
 
-body,html{
+body,html {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #F4EBDC;
     height: 100vh;
     width: 100vw;
 }
 
-header{          
+header {          
     min-height: 150px;
     text-align: center;
     padding: 40px;
     
 }
-div#h1header{
+div#h1header {
     background-color: rgb(221, 135, 31);
     border-radius: 10px;
     max-width: 90%;
@@ -32,20 +32,20 @@ div#h1header{
     margin-bottom: 25px;
 }
 
-header h1{
+header h1 {
     color: rgb(91, 30, 11);
     font-family:'Kalam', cursiva; ;
     padding: 5px;
     font-size: 1.2em;
 }
 
-header p{
+header p {
     color: rgb(91, 30, 11);
     font-family:'Kalam', cursiva;
     font-size: 0.8em;
 }
 
-span#imenu{
+span#imenu {
     background-color: #28140B;
     display: block;
     color: #FEBF0F;
@@ -55,17 +55,17 @@ span#imenu{
     border-radius: 10px;
 }
 
-span#imenu:hover{
+span#imenu:hover {
     list-style-type: none;
     background-color: #482414;
     color: black;
 }
 
-menu{
+menu {
     display: none;
 }
 
-menu > ul{
+menu > ul {
     list-style-type: none;
 }
 
@@ -80,13 +80,25 @@ menu > ul > li > a {
     
 }
 
-menu > ul > li > a:hover{
+menu > ul > li > a:hover {
     background-color: #28140B;
 }
 /*n fazer mais nada na parte de cima desgraçado */
 
-section{
+section {
     background-color: white;
-    width: 95%;
-    margin: auto;
+    width: 94%;
+    margin: auto;border-radius: 7px;
+    text-align: justify;
+
+}
+
+section  p {
+    font-family: 'Kalam', cursive ;
+    color: black;
+    font-size: 2.2vw;
+    padding: 10px;
+    text-indent: 15px;
+    line-height: 1.5;
+    font-weight: 300;
 }
