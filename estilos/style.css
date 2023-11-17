@@ -97,7 +97,7 @@ section {
 .minitexto {
     font-family: 'Kalam', cursive ;
     color: black;
-    font-size: 10em ;/*deixar 2.2vw para media queries*/
+    font-size: 1.1em ;/*deixar 2.2vw para media queries*/
     
     padding: 10px;
     text-indent: 15px;
@@ -112,7 +112,7 @@ section {
     font-weight: bold;
     font-size: 5vw;
     text-align: center;
-    padding: 30px 0px 30px 0px;
+    padding: 30px 0px 15px 0px;
     
 
 }
