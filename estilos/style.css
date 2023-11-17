@@ -59,6 +59,7 @@ span#imenu:hover {
     list-style-type: none;
     background-color: #482414;
     color: black;
+    
 }
 
 menu {
@@ -77,7 +78,7 @@ menu > ul > li > a {
     background-color: #482414;
     color: #FEBF0F;
     border-top: 2px solid black;
-    
+    border-radius: 6px;
 }
 
 menu > ul > li > a:hover {
