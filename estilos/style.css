@@ -128,47 +128,52 @@ section {
     width: 100%;
     height: 300px;
     background-color: aquamarine;
-    height: 500px;
-
+    height: 600px;
+    padding: 5px;
 }
 
 .parte3{
     width: 100%;
     height: 300px;
     background-color: darkgrey;
-    height: 500px;
-
+    height: 600px;
+    padding: 5PX;
 }
 
 div#conteudo1 {
-    background: url(../img/fundo_branco.webp) no-repeat;
+    background: url(../img/fundo_brancopeq.jpg) no-repeat;
     height: 300px;
+    background-size: 100% 100%;
 }
 
 div#imagem1{
-    background: url(../img/faixada.jpg) no-repeat;
+    background: url(../img/faixadapeq.jpg) no-repeat;
     height: 300px;
     background-size: cover ;
+    background-position: bottom;
 }
 
 div#conteudo2 {
-    background: url(../img/fundo_branco.webp) no-repeat;
+    background: url(../img/fundo_brancopeq.jpg) no-repeat;
     height: 300px;
+    background-size: 100% 100%;
 }
 
 div#imagem2{
-    background: url(../img/culinaria.jpg) no-repeat;
+    background: url(../img/culinariapeq.jpg) no-repeat;
     height: 300px;
-    background-size: cover ;
+    background-size: 100% 100% ;
+
 }
 
 div#conteudo3 {
     background: url(../img/fundo_branco.webp) no-repeat;
     height: 300px;
+    background-size: 100% 100%;
 }
 
 div#imagem3{
-    background: url(../img/blog.jpg) no-repeat;
+    background: url(../img/blogpeq.jpg) no-repeat;
     height: 300px;
     background-size: cover ;
 }
