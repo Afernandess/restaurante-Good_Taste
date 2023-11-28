@@ -228,6 +228,8 @@ div#imagem3{
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
+    height: 50% ;
+    
   }
   
   /* Position the "next button" to the right */
@@ -294,4 +296,9 @@ div#imagem3{
   /* On smaller screens, decrease text size */
   @media only screen and (max-width: 300px) {
     .prev, .next,.text {font-size: 11px}
+  }
+
+  .img2{
+    position: relative;
+    width: 100%;
   }
